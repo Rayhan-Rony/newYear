@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1320px;
+    margin: auto;
+}
+
+.banner-container {
+
+    background-repeat: no-repeat;
+    height: 800px;
+    margin: 20px 0;
+
+    background-image: url('/resources/Banner\ Image.png');
+}
+
+.banner-content {
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding-top: 200px;
+    text-align: center;
+
+}
+
+.banner-subtitle {
+    font-size: 32px;
+}
+
+.banner-title {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+.discount-container {
+    margin: auto;
+}
