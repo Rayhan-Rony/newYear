@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-body {
+.body-container,
+.footer-container {
     width: 1320px;
     margin: auto;
 }
@@ -168,4 +169,119 @@ body {
     padding: 8px 10px;
     margin-left: 200px;
     margin-top: 50px;
+}
+
+.offer-container {
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.best-offer {
+    color: #F00;
+
+
+
+    font-size: 24px;
+
+
+}
+
+.offer-soon {
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.offer-text {
+    color: rgba(7, 2, 17, 0.60);
+
+
+    font-size: 20px;
+
+
+}
+
+.circle {
+    border: 5px solid red;
+    border-radius: 50%;
+}
+
+.circle-img {
+    width: 50;
+    padding-left: 40px;
+    border-radius: 50%;
+}
+
+.offer-year {
+    color: #F00;
+
+    font-size: 48px;
+
+
+}
+
+.offer-year-text {
+    color: rgba(7, 2, 17, 0.60);
+
+
+    font-size: 20px;
+
+
+
+}
+
+.gift-subtitle {
+    color: #F00;
+
+
+    font-size: 24px;
+
+}
+
+.gift-title {
+    color: #070211;
+
+    font-size: 48px;
+
+    font-weight: bold;
+
+    text-transform: capitalize;
+}
+
+.gift-text {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-size: 20px;
+
+
+
+    margin-bottom: 30px;
+
+}
+
+.footer {
+    background: #070211;
+    margin-top: 100px;
+    color: #FFF;
+    padding: 100px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
 }
