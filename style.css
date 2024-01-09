@@ -125,3 +125,47 @@ body {
     left: 900px;
 
 }
+
+.info-container {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    ;
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 386px;
+}
+
+.info-point {
+    color: #F00;
+    font-weight: bolder;
+    text-align: center;
+
+    font-size: 32px;
+
+
+
+    text-transform: capitalize;
+}
+
+.info-text {
+    color: #070211;
+
+    font-size: 32px;
+
+
+    text-transform: capitalize;
+}
+
+.info-btn {
+    border-radius: 8px;
+    background: #F00;
+    color: #fff;
+    border: none;
+    text-align: center;
+    padding: 8px 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
