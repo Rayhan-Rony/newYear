@@ -37,5 +37,36 @@ body {
 }
 
 .discount-container {
+    width: 700px;
     margin: auto;
+}
+
+.discount-title {
+    color: #F00;
+
+    text-align: center;
+    font-size: 88px;
+    margin-bottom: 20px;
+}
+
+.discount-subtitle {
+    color: #F00;
+
+    text-align: center;
+
+    font-size: 24px;
+
+}
+
+.discount-category {
+    color: #070211;
+
+    text-align: center;
+
+    font-size: 48px;
+
+}
+
+.discount-img {
+    margin: 20px 0;
 }
